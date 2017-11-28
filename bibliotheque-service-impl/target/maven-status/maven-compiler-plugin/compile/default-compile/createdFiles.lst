@@ -1,0 +1,4 @@
+fr\uni\institute\library\service\impl\InventoryManagementServiceImpl.class
+fr\uni\institute\library\service\impl\TitleModify.class
+fr\uni\institute\library\service\impl\TitleRemove.class
+fr\uni\institute\library\service\impl\TitleAdd.class

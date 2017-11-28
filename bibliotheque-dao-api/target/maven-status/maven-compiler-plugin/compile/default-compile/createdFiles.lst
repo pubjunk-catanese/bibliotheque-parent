@@ -1,0 +1,6 @@
+fr\uni\institute\library\dao\BookDao.class
+fr\uni\institute\library\dao\CategoryTitleRelationDao.class
+fr\uni\institute\library\dao\AudioRecordDao.class
+fr\uni\institute\library\dao\CategoryDao.class
+fr\uni\institute\library\dao\DaoException.class
+fr\uni\institute\library\dao\TitleDao.class

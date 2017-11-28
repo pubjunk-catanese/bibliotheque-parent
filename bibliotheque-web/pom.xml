@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>fr.uni.institute.library</groupId>
+    <artifactId>bibliotheque-parent</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+  </parent>
+  <groupId>fr.uni.institute.library</groupId>
+  <artifactId>bibliotheque-web</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>war</packaging>
+  <name>bibliotheque-web Maven Webapp</name>
+  <url>http://maven.apache.org</url>
+  <build>
+    <finalName>bibliotheque-web</finalName>
+    
+    <plugins>
+    	<plugin>
+				<groupId>org.apache.tomcat.maven</groupId>
+				<artifactId>tomcat7-maven-plugin</artifactId>
+				<version>2.2</version>
+				<configuration>
+					<url>http://localhost:8080/manager/text</url>
+					<server>tomcat-server</server>
+					<path>/bibliotheque-web</path>
+				</configuration>
+		</plugin>
+    </plugins>
+       
+    
+    
+  </build>
+  <dependencies>
+  	<dependency>
+  		<groupId>fr.uni.institute.library</groupId>
+  		<artifactId>bibliotheque-service-impl</artifactId>
+  		<version>0.0.1-SNAPSHOT</version>
+  	</dependency>
+  	<dependency>
+	    <groupId>javax.servlet</groupId>
+	    <artifactId>jstl</artifactId>
+	    <version>1.2</version>
+	</dependency>
+
+	<!-- https://mvnrepository.com/artifact/javax/javaee-web-api -->
+	<dependency>
+	    <groupId>javax</groupId>
+	    <artifactId>javaee-web-api</artifactId>
+	    <version>7.0</version>
+	    <scope>provided</scope>
+	</dependency>	
+  	
+  	
+  </dependencies>
+</project>

@@ -1,0 +1,13 @@
+fr\uni\institute\library\business\inventory\Category.class
+fr\uni\institute\library\business\inventory\Book.class
+fr\uni\institute\library\business\inventory\Category$3.class
+fr\uni\institute\library\business\inventory\AudioRecord.class
+fr\uni\institute\library\business\inventory\Title.class
+fr\uni\institute\library\business\inventory\TitlesLister.class
+fr\uni\institute\library\business\inventory\InventoryVisitor.class
+fr\uni\institute\library\business\inventory\Category$2.class
+fr\uni\institute\library\business\inventory\DefaultInventoryVisitor.class
+fr\uni\institute\library\business\inventory\VideoRecord.class
+fr\uni\institute\library\business\inventory\BusinessObject.class
+fr\uni\institute\library\business\inventory\InventoryException.class
+fr\uni\institute\library\business\inventory\Category$1.class

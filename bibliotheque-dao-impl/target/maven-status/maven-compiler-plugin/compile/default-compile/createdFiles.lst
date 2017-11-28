@@ -1,0 +1,6 @@
+fr\uni\institute\library\dao\jdbc\AudioRecordDaoJdbc.class
+fr\uni\institute\library\dao\jdbc\CategoryTitleRelationDaoJdbc.class
+fr\uni\institute\library\dao\jdbc\BookDaoJdbc.class
+fr\uni\institute\library\dao\jdbc\InventoryDaoJdbc.class
+fr\uni\institute\library\dao\jdbc\TitleDaoJdbc.class
+fr\uni\institute\library\dao\jdbc\CategoryDaoJdbc.class
